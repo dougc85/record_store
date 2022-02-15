@@ -1,0 +1,44 @@
+@import '../../partials/variables';
+
+.App-container {
+    display: grid;
+    grid-template-rows: max-content 1fr;
+    height: 100vh;
+}
+
+.Navbar {
+  background-color: black;
+  color: white;
+  font-size: 2.4rem;
+  padding: .5rem 1rem 1rem 2rem;
+}
+
+.Navbar > ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.Navbar-item {
+  flex-grow: 1;
+}
+
+.logo {
+  flex-grow: 4;
+  text-align: left;
+  font-family: $font-fancy;
+  font-size: 4rem;
+}
+
+.Navbar-item a {
+
+  &:visited, &:link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}

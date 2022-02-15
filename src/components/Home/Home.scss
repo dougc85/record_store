@@ -1,0 +1,64 @@
+@import '../../partials/variables';
+
+.Home {
+  background-image: url(../../images/records-min.jpg);
+  background-size: cover;
+  text-transform: uppercase;
+  display: grid;
+  grid-template: 2fr
+                 auto
+                 auto
+                 1fr 
+                 / 2fr 16rem auto 2rem 1fr;
+  row-gap: 1.8rem;
+
+  &-title {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    padding-top: .2rem;
+    border-radius: 5px;
+    grid-area: 2 / 2 / 3 / 4;
+    text-align: center;
+    font-size: 1.7rem;
+    position: relative;
+
+    &-top {
+      display: block;
+      font-family: $font-fancy;
+      font-size: 4rem;
+      font-weight: 400;
+      margin-bottom: 1rem;
+    }
+
+    &::after {
+      content: "";
+      background-color: white;
+      width: 150px;
+      height: 1px;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -.6rem);
+    }
+  }
+
+  & a {
+    text-align: center;
+    text-decoration: none;
+    grid-area: 3 / 3 / 4 / 5;
+    text-transform: uppercase;
+    font-family: $font-primary;
+    font-weight: 700;
+    font-size: 1.9rem;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: .5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  & a:visited {
+    color: white;
+  }
+}
