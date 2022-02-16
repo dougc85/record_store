@@ -12,6 +12,7 @@ function Item(props) {
         <span className="Item-artist">{props.artist}</span>
         <span className="Item-cost">{props.cost}</span>
       </p>
+      <button className="Item-add">Add to Cart</button>
 
     </div>
   )

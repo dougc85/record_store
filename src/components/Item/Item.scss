@@ -1,3 +1,5 @@
+@import '../../partials/variables';
+
 .Item {
   display: flex;
   flex-direction: column;
@@ -16,9 +18,30 @@
 
   &-title {
     display: block;
+    font-size: 2rem;
+    font-family: $font-fancy;
+    font-weight: 500;
+    margin-top: .5rem;
   }
 
   &-artist {
     display: block;
+    font-size: 1.4rem;
+  }
+
+  &-cost {
+    font-size: 1.2rem;
+  }
+
+  &-add {
+    background-color: inherit;
+    border: none;
+    font-family: $font-primary;
+    margin-top: .5rem;
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
   }
 }

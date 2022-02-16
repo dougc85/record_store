@@ -1,16 +1,13 @@
 @import '../../partials/variables';
 
-.App-container {
-    display: grid;
-    grid-template-rows: max-content 1fr;
-    height: 100vh;
-}
-
 .Navbar {
   background-color: black;
   color: white;
   font-size: 2.4rem;
   padding: .5rem 1rem 1rem 2rem;
+  position: fixed;
+  width: 100vw;
+  box-sizing: border-box;
 }
 
 .Navbar > ul {
