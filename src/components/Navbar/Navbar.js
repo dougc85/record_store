@@ -11,9 +11,6 @@ function Navbar() {
             <Link to="/"><span className="blue">Blue</span> Note Bin</Link>
           </li>
           <li className="Navbar-item">
-            <Link to="/">Home</Link>
-          </li>
-          <li className="Navbar-item">
             <Link to="/shop">Shop</Link>
           </li>
           <li className="Navbar-item">
