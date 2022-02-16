@@ -4,7 +4,7 @@
   background-color: black;
   color: white;
   font-size: 2.4rem;
-  padding: .5rem 1rem 1rem 2rem;
+  padding: .8rem 1rem 1.3rem 2rem;
   position: fixed;
   width: 100vw;
   box-sizing: border-box;
@@ -38,4 +38,22 @@
   &:hover {
     cursor: pointer;
   }
+}
+
+.cart {
+  background-color: white;
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-icon {
+  height: 2rem;
+  color: black;
 }

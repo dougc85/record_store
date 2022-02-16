@@ -1,5 +1,21 @@
 @import '../../partials/variables';
 
 .About {
+  height: 100vh;
   background-color: $off-white;
+  padding-top: calc($header-offset + 3rem);
+
+  & img {
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  & p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: clamp(45ch, 50%, 75ch);
+  }
 }

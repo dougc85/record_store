@@ -3,15 +3,14 @@ import './Shop.scss';
 import albums from '../../data/albums';
 import Item from '../Item/Item';
 
-function Shop() {
+function Shop(props) {
   return (
     <div className="Shop">
       {albums.map((album) => (
         <Item
-          title={album.title}
-          artist={album.artist}
-          cost={album.cost}
-          art={album.art}
+          album={album}
+          key={album.title}
+          addItem={props.addItem}
         />
       ))}
     </div>
