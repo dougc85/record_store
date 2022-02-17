@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/record_store/static/css/main.93aaa775.css",
+    "main.css": "/record_store/static/css/main.70ed8b51.css",
     "main.js": "/record_store/static/js/main.673dda1c.js",
     "static/media/records-min.jpg": "/record_store/static/media/records-min.965806a1d33fef8a9e2b.jpg",
     "static/media/I_Was_Here.jpg": "/record_store/static/media/I_Was_Here.00057c95b609eb87a684.jpg",
@@ -16,11 +16,11 @@
     "static/media/Soul_Station.jpg": "/record_store/static/media/Soul_Station.48644b8b5e88e149d8bb.jpg",
     "static/media/hiFi.jpg": "/record_store/static/media/hiFi.5a46ffe24e3e064212db.jpg",
     "index.html": "/record_store/index.html",
-    "main.93aaa775.css.map": "/record_store/static/css/main.93aaa775.css.map",
+    "main.70ed8b51.css.map": "/record_store/static/css/main.70ed8b51.css.map",
     "main.673dda1c.js.map": "/record_store/static/js/main.673dda1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.93aaa775.css",
+    "static/css/main.70ed8b51.css",
     "static/js/main.673dda1c.js"
   ]
 }
