@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/record_store/static/css/main.93aaa775.css",
+    "main.js": "/record_store/static/js/main.61577628.js",
+    "static/media/records-min.jpg": "/record_store/static/media/records-min.965806a1d33fef8a9e2b.jpg",
+    "static/media/I_Was_Here.jpg": "/record_store/static/media/I_Was_Here.00057c95b609eb87a684.jpg",
+    "static/media/allForYou.png": "/record_store/static/media/allForYou.dbe75a06d02e87ccd245.png",
+    "static/media/Boss_Guitar.jpg": "/record_store/static/media/Boss_Guitar.77dc77065f79aa3b34e6.jpg",
+    "static/media/Blue_haze.jpg": "/record_store/static/media/Blue_haze.c0517194775b053de828.jpg",
+    "static/media/westSide.jpg": "/record_store/static/media/westSide.620838534cd9db2d4186.jpg",
+    "static/media/Coltranes_Sound.jpg": "/record_store/static/media/Coltranes_Sound.dd240ca3e92f14c1b242.jpg",
+    "static/media/Tender_Moments.jpg": "/record_store/static/media/Tender_Moments.132fb866cd03cdc6d502.jpg",
+    "static/media/Ellaandlouis.jpg": "/record_store/static/media/Ellaandlouis.53f85b02d56268caa78f.jpg",
+    "static/media/modernArt.jpg": "/record_store/static/media/modernArt.7f67bd3235fedf4fa6d2.jpg",
+    "static/media/Billevansalone.jpg": "/record_store/static/media/Billevansalone.821dac52dd1bf63f0459.jpg",
+    "static/media/Soul_Station.jpg": "/record_store/static/media/Soul_Station.48644b8b5e88e149d8bb.jpg",
+    "static/media/hiFi.jpg": "/record_store/static/media/hiFi.5a46ffe24e3e064212db.jpg",
+    "index.html": "/record_store/index.html",
+    "main.93aaa775.css.map": "/record_store/static/css/main.93aaa775.css.map",
+    "main.61577628.js.map": "/record_store/static/js/main.61577628.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93aaa775.css",
+    "static/js/main.61577628.js"
+  ]
+}
