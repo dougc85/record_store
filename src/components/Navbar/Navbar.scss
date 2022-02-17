@@ -51,9 +51,25 @@
   margin: 0 auto;
   border: none;
   cursor: pointer;
-}
+  position: relative;
 
-.cart-icon {
-  height: 2rem;
-  color: black;
+  &-icon {
+    height: 2rem;
+    color: black;
+  }
+
+  &-quantity {
+    position: absolute;
+    left: -9px;
+    bottom: -9px;
+    background-color: $blue;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
 }

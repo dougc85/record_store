@@ -10,10 +10,13 @@
     height: 200px;
     width: 200px;
     overflow: hidden;
+    box-shadow: 2px 2px 9px rgba(0,0,0,.3);
+    box-shadow: -1px -px 9px rgba(0,0,0,.2);
   }
 
   &-art {
     height: 200px;
+    border-radius: 2px;
   }
 
   &-title {
