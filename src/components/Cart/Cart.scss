@@ -9,7 +9,7 @@
     height: 100vh;
     width: 400px;
     background-color: white;
-    z-index: 1;
+    z-index: 2;
 
     &-close {
       background-color: inherit;
@@ -67,4 +67,5 @@
   height: 100vh;
   width: 100vw;
   background-color: rgb(0,0,0,.7);
+  z-index: 1;
 }
