@@ -16,10 +16,10 @@ function Navbar(props) {
   return (
     <div className="App-container">
       <nav className="Navbar">
+        <div className="logo">
+          <Link to="/"><span className="blue">Blue</span> Note Bin</Link>
+        </div>
         <ul>
-          <li className="Navbar-item logo">
-            <Link to="/"><span className="blue">Blue</span> Note Bin</Link>
-          </li>
           <li className="Navbar-item">
             <Link to="/shop">Shop</Link>
           </li>
@@ -35,10 +35,11 @@ function Navbar(props) {
             </button>
           </li>
         </ul>
-      </nav>
-      {cartShow && <Cart toggleCart={toggleCart} cart={cart} addItem={addItem} deleteItem={deleteItem} />}
+      </nav >
+      {cartShow && <Cart toggleCart={toggleCart} cart={cart} addItem={addItem} deleteItem={deleteItem} />
+      }
       <Outlet />
-    </div>
+    </div >
   )
 }
 

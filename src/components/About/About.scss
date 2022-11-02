@@ -3,12 +3,21 @@
 .About {
   height: 100vh;
   background-color: $off-white;
+  padding: 3rem;
   padding-top: calc($header-offset + 3rem);
+
+  @media screen and (max-width: 600px) {
+    padding-top: calc($header-offset + 9rem);
+  }
 
   & img {
     height: 250px;
     display: block;
     margin: 0 auto;
+
+    @media screen and (max-width: 600px) {
+      height: 150px;
+    }
   }
 
   & p {
@@ -17,5 +26,9 @@
     margin: 0 auto;
     margin-top: 3rem;
     width: clamp(45ch, 50%, 75ch);
+
+    @media screen and (max-width: 600px) {
+      width: 100%;
+    }
   }
 }
